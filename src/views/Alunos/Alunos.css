@@ -1,0 +1,18 @@
+.card-header {
+    color: rgba(3, 160, 160, 0.24);
+}
+
+.btn-action {
+    width: 94px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.p {
+    text-align: justify;
+}

@@ -1,0 +1,38 @@
+.container-header {
+    background-color: rgb(219, 216, 168);
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+/* Menu Span corresponde às abas Teams e Players. Caso seja desabilitado, as abas ficam se sobrepondo */
+.menu span {
+    padding: 40px;
+}
+
+span {
+    width: 5px;
+    height: 200px;
+    color: rgb(255, 255, 255);
+}
+
+span:hover {
+    width: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(230, 196, 9);
+
+}
+
+.btn-contact {
+    color: rgba(0, 2, 3, 0.397);
+    font-weight: bold;
+    background-color: rgb(240, 186, 10);
+
+}
