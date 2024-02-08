@@ -13,10 +13,14 @@ export function Header() {
 
             <div className="menu">
                 <Link to="/Players">
-                    <span>Players</span>
+                    <span>
+                        Players
+                    </span>
                 </Link>
                 <Link to="/Teams">
-                    <span>Teams</span>
+                    <span>
+                        Teams
+                    </span>
                 </Link>
             </div>
 

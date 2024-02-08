@@ -23,7 +23,7 @@ export function Alunos() {
         <div>
             <div className="card">
                 <div className="card-header">
-                    <h2 className="text-center">Students</h2>
+                    <h2 className="text-center">Players and Informations</h2>
                 </div>
                 <div className="card-body">
                     <div className="container">
@@ -51,8 +51,8 @@ export function Alunos() {
                                 </div>
 
                                 <div className="col">
-                                    <label htmlFor="Profession">Profession</label>
-                                    <select className="form-control" id="Profession"
+                                    <label htmlFor="position">Position</label>
+                                    <select className="form-control" id="position"
                                         value={position} onChange={e => setPosition(e.target.value)}>
                                         <option value="nothing" disabled selected>Select Position</option>
                                         <option value="Brazil">Left Wing</option>
@@ -87,7 +87,7 @@ export function Alunos() {
                                 <th width="105" className="text-center">Gender</th>
                                 <th width="150" className="text-center">Position</th>
                                 <th width="115" className="text-center">Nationality</th>
-                                <th width="217" className="text-center">Good Leg</th>
+                                <th width="217" className="text-center">Edit</th>
                             </tr>
                         </thead>
 
@@ -99,8 +99,8 @@ export function Alunos() {
                                 <td className="text-center">Left Wing</td>
                                 <td className="text-center">Brazil</td>
                                 <td className="text-center">
-                                    <div className="btn btn-outline-info btn-action">Info Page</div>
-                                    <div className="btn btn-outline-warning btn-action">Edit</div>
+                                    <div className="btn btn-info btn-action">Info Page</div>
+                                    <div className="btn btn-warning btn-action">Edit</div>
                                 </td>
                             </tr>
                             <tr>
@@ -110,8 +110,8 @@ export function Alunos() {
                                 <td className="text-center">Striker</td>
                                 <td className="text-center">Suiça</td>
                                 <td className="text-center">
-                                    <div className="btn btn-outline-info btn-action">Info Page</div>
-                                    <div className="btn btn-outline-warning btn-action">Edit</div>
+                                    <div className="btn btn-info btn-action">Info Page</div>
+                                    <div className="btn btn-warning btn-action">Edit</div>
                                 </td>
                             </tr>
                             <tr>
@@ -121,8 +121,8 @@ export function Alunos() {
                                 <td className="text-center">Center Attacking Middlefield</td>
                                 <td className="text-center">Germany</td>
                                 <td className="text-center">
-                                    <div className="btn btn-outline-info btn-action">Info Page</div>
-                                    <div className="btn btn-outline-warning btn-action">Edit</div>
+                                    <div className="btn btn-info btn-action">Info Page</div>
+                                    <div className="btn btn-warning btn-action">Edit</div>
                                 </td>
 
                             </tr>
@@ -133,8 +133,8 @@ export function Alunos() {
                                 <td className="text-center">Brazil</td>
                                 <td className="text-center">Portugal</td>
                                 <td className="text-center">
-                                    <div className="btn btn-outline-info btn-action">Info Page</div>
-                                    <div className="btn btn-outline-warning btn-action">Edit</div>
+                                    <div className="btn btn-info btn-action">Info Page</div>
+                                    <div className="btn btn-warning btn-action">Edit</div>
                                 </td>
                             </tr>
                             <tr>

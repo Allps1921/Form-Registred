@@ -23,7 +23,7 @@ export function Professor() {
     return (
         <div className="card">
             <div className="card-header">
-                <h1 className="text-center">Info</h1>
+                <h2 className="text-center">Teams and Informations</h2>
             </div>
             <div className="card-body">
                 <div className="container">
