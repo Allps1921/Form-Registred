@@ -19,6 +19,7 @@ span {
     width: 5px;
     height: 200px;
     color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in-out;
 }
 
 span:hover {
@@ -27,6 +28,8 @@ span:hover {
     cursor: pointer;
     font-weight: bold;
     background-color: rgb(230, 196, 9);
+    transform: scale(1.6);
+    border-radius: 15px;
 
 }
 
@@ -34,5 +37,9 @@ span:hover {
     color: rgba(0, 2, 3, 0.397);
     font-weight: bold;
     background-color: rgb(240, 186, 10);
+    transition: all 0.4s ease-in-out;
+}
 
+btn-contact:hover {
+    transform: scale(2.1);
 }
