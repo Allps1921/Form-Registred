@@ -5,7 +5,7 @@ export function Header() {
     return (
         <div className="container-header">
             <img
-                width="220"
+                width="100"
                 className="logo"
                 src="https://cdn.awsli.com.br/400x300/2571/2571073/logo/grande-removebg-preview-3-zxervs.png"
             />
